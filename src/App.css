@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: grey; */
+  width: 80%;
+  margin-left: 10%;
+}
+
+.padd{
+  padding: 20px;
+}
+
+.article{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(127, 193, 255);
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.padd-article{
+  padding: 20px;
+  display: flex;
+  /* background-color: black; */
+}
+
+.title{
+  padding: 20px;
+}
+
+.news-img{
+  width: 20%;
+  height: 200px;
+  background-color: green;
+}
+
+.news-detail{
+  height: 200px;
+  width: 70%;
+  background-color: yellow;
+}
+/* my css */
+body{
+  background-color: thistle;
+}
+
+.container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: gray; */
+  width: 80%;
+  margin-left: 10%;
+}
+
+.padd{
+  padding: 20px;
+}
+.article{
+  height: 230px;
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.padd-article{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-img{
+  width: 27%;
+  height: 200px;
+  background-color: rgba(0, 128, 0, 0);
+  display: flex;
+  
+}
+.news-img>img{
+  width: 100%;
+  border-radius: 15px;
+  border: 1px;
+  transition: 0.5s;
+  
+}
+
+.news-img>img:hover{
+  transform: scale(1.03);
+}
+
+.news-detail{
+  height: 200px;
+  width: 70%;
+  background-color: rgb(0, 255, 170,0);
+  font-family: segoe UI;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 15px;
+
+
+}
+h2,p{
+  margin: 0px;
+}
+
+.a-text{
+  margin-bottom: 15px;
+  color: grey;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.ab-text{
+  color: gray;
+  margin-bottom: 15px;
+}
+.btn{
+  padding-left: 30px;
+  padding-right: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  font-family: segoe UI;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: #1d6eb0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.btn-s{
+  padding-left: 30px;
+  padding-right: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  font-family: segoe UI;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: #1d9ab0;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.btn-s:hover{
+  background-color: #23c2cd;
+  transition: all ease 0.2s;
+}
+
+/* filter css */
+
+.filter{
+  width: 100%;
+  /* background-color: red; */
+}
+
+input{
+  height: 50px;
+  width: 80%;
+  text-indent: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display:inline;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+  margin-right: 5px;
+  padding:10px ;
+
+}
